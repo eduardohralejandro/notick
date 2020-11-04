@@ -1,15 +1,14 @@
 import React, { useState } from 'react';
-import Hello from './components/Hello';
-
+import StickyNote from './components/StickyNote';
 
 
 const App = () => {
-  return (
-    <div>
-      <div>hehehe,n,n</div>
-      <Hello />
-    </div>
-  )
+
+ return (
+   <div>
+     <StickyNote />
+   </div>
+ );
 }
 
 export default App;
